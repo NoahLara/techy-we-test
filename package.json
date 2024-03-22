@@ -1,0 +1,35 @@
+{
+  "name": "techy-we-test",
+  "version": "1.0.0",
+  "description": "Part of the hiring process at TechyWe involves utilizing the Node.js and TypeScript stack",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "techy-we",
+    "node",
+    "test",
+    "typescript",
+    "test"
+  ],
+  "author": "nlara99",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.30",
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "morgan": "^1.10.0",
+    "reflect-metadata": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
+  }
+}
